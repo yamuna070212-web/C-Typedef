@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+typedef struct
+{
+    int accountNo;
+    char name[30];
+    float balance;
+} BankAccount;
+
+int main()
+{
+    BankAccount acc = {1001, "Ramesh", 25000.50};
+
+    printf("Account No : %d\n", acc.accountNo);
+    printf("Name       : %s\n", acc.name);
+    printf("Balance    : %.2f\n", acc.balance);
+
+    return 0;
+}
+Output
+Account No : 1001
+Name       : Ramesh
+Balance    : 25000.50
