@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+typedef void (*Message)();
+
+void hello()
+{
+    printf("Welcome to C Programming\n");
+}
+
+int main()
+{
+    Message msg = hello;
+
+    msg();
+
+    return 0;
+}
+Output
+Welcome to C Programming
