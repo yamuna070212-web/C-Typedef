@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+typedef union
+{
+    int i;
+    float f;
+} Data;
+
+int main()
+{
+    Data d;
+
+    d.i = 100;
+    printf("Integer = %d\n", d.i);
+
+    d.f = 45.6;
+    printf("Float = %.2f\n", d.f);
+
+    return 0;
+}
+Output
+Integer = 100
+Float = 45.60
