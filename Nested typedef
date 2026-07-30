@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+typedef int Number;
+typedef Number Integer;
+
+int main()
+{
+    Integer x = 500;
+
+    printf("%d\n", x);
+
+    return 0;
+}
+Output
+500
