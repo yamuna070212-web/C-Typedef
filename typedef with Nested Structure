@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+typedef struct
+{
+    char city[30];
+    int pincode;
+} Address;
+
+typedef struct
+{
+    int id;
+    char name[30];
+    Address addr;
+} Student;
+
+int main()
+{
+    Student s = {101, "Rahul", {"Bangalore", 560001}};
+
+    printf("ID      : %d\n", s.id);
+    printf("Name    : %s\n", s.name);
+    printf("City    : %s\n", s.addr.city);
+    printf("Pincode : %d\n", s.addr.pincode);
+
+    return 0;
+}
+Output
+ID      : 101
+Name    : Rahul
+City    : Bangalore
+Pincode : 560001
