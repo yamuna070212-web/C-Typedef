@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef unsigned int UINT;
+
+int main()
+{
+    UINT age = 25;
+
+    printf("Age = %u\n", age);
+
+    return 0;
+}
+Output
+Age = 25
