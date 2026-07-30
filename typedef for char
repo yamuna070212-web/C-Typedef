@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef char Character;
+
+int main()
+{
+    Character grade = 'A';
+
+    printf("Grade = %c\n", grade);
+
+    return 0;
+}
+Output
+Grade = A
