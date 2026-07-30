@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef long LONG;
+
+int main()
+{
+    LONG population = 8000000;
+
+    printf("Population = %ld\n", population);
+
+    return 0;
+}
+Output
+Population = 8000000
