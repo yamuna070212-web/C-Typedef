@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef int Number;
+
+int main()
+{
+    Number a = 10, b = 20, c = 30;
+
+    printf("%d %d %d\n", a, b, c);
+
+    return 0;
+}
+Output
+10 20 30
