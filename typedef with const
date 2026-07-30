@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef const int ConstInt;
+
+int main()
+{
+    ConstInt x = 100;
+
+    printf("%d\n", x);
+
+    return 0;
+}
+Output
+100
