@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef float Decimal;
+
+int main()
+{
+    Decimal price = 99.99;
+
+    printf("Price = %.2f\n", price);
+
+    return 0;
+}
+Output
+Price = 99.99
