@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+typedef int Integer;
+typedef float Decimal;
+typedef char Character;
+
+int main()
+{
+    Integer age = 20;
+    Decimal salary = 25000.50;
+    Character grade = 'A';
+
+    printf("Age = %d\n", age);
+    printf("Salary = %.2f\n", salary);
+    printf("Grade = %c\n", grade);
+
+    return 0;
+}
+Output
+Age = 20
+Salary = 25000.50
+Grade = A
