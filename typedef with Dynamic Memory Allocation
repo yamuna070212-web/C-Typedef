@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef int* IntPtr;
+
+int main()
+{
+    IntPtr ptr;
+
+    ptr = (IntPtr)malloc(sizeof(int));
+
+    *ptr = 250;
+
+    printf("Value = %d\n", *ptr);
+
+    free(ptr);
+
+    return 0;
+}
+Output
+Value = 250
