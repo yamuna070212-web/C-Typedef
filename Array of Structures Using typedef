@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+typedef struct
+{
+    int id;
+    char name[20];
+} Student;
+
+int main()
+{
+    Student s[2] =
+    {
+        {101, "Rahul"},
+        {102, "Priya"}
+    };
+
+    for(int i = 0; i < 2; i++)
+    {
+        printf("%d %s\n", s[i].id, s[i].name);
+    }
+
+    return 0;
+}
+Output
+101 Rahul
+102 Priya
