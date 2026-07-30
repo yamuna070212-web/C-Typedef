@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef int Integer;
+
+int main()
+{
+    Integer num = 100;
+
+    printf("Number = %d\n", num);
+
+    return 0;
+}
+Output
+Number = 100
