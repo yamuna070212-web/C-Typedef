@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+typedef volatile int VInt;
+
+int main()
+{
+    VInt x = 100;
+
+    printf("Value = %d\n", x);
+
+    return 0;
+}
+Output
+Value = 100
