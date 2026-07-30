@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+typedef enum
+{
+    RED,
+    GREEN,
+    BLUE
+} Color;
+
+int main()
+{
+    Color c = GREEN;
+
+    printf("Value = %d\n", c);
+
+    return 0;
+}
+Output
+Value = 1
